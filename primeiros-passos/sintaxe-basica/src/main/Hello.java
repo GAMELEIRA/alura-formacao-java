@@ -1,9 +1,15 @@
 package main;
 
+/**
+ * AUTOR: GABRIEL GAMELEIRA DOS SANTOS
+ * DATA: 17/05/2020
+ * HORA: 22:32
+ * FINALIDADE DO PROGRAMA: APRESENTAR UMA MENSAGEM DE BOAS VINDAS NO CONSOLEN
+ */
+
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println("Olá Mundo!");
 		
