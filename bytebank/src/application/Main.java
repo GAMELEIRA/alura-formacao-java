@@ -1,5 +1,6 @@
 package application;
 
+import model.Cliente;
 import model.Conta;
 
 /**
@@ -12,10 +13,11 @@ import model.Conta;
 public class Main {
 
 	public static void main(String[]args) {
+
+		Cliente cliente1 = new Cliente("Gabriel", "47878663890", "Programador", new Conta());
 		
-		Conta primeiraConta = new Conta();
-		
-		primeiraConta.deposita(50);
+		Cliente cliente2 = new Cliente("Gabriel", "47878663890", "Programador", new Conta());
+
 		
 	}
 	
