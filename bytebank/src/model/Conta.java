@@ -12,8 +12,10 @@ public class Conta {
 	private int agencia;
 
 	private int numero;
-
+	
 	private String titular;
+	
+	public Conta() {}
 	
 	public double getSaldo() {
 		

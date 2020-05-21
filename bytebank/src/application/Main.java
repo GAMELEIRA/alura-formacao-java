@@ -2,6 +2,8 @@ package application;
 
 import model.Cliente;
 import model.Conta;
+import model.Funcionario;
+import model.Gerente;
 
 /**
  * AUTOR: GABRIEL GAMELEIRA DOS SANTOS
@@ -17,7 +19,8 @@ public class Main {
 		Cliente cliente1 = new Cliente("Gabriel", "47878663890", "Programador", new Conta());
 		
 		Cliente cliente2 = new Cliente("Gabriel", "47878663890", "Programador", new Conta());
-
+		
+		Funcionario gerente1 = new Gerente(); 
 		
 	}
 	

@@ -21,7 +21,7 @@ public class Cliente {
 	
 	public Cliente(String nome, String cpf, String profissao, Conta conta){
 		
-		System.out.println("Total de contas: " + this.total);
+		System.out.println("Total de contas: " + total);
 		
 		this.nome = nome;
 		
